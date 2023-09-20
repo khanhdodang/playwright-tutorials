@@ -74,6 +74,6 @@ steps:
   inputs:
     testRunner: 'JUnit'
     testResultsFiles: 'test-results/results.xml'
-    testRunTitle: 'WoodForestNB Report'
+    testRunTitle: 'Playwright Report'
     publishRunAttachments: true
   condition: always()
