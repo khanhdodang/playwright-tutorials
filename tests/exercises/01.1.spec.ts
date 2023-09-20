@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('test Locators 01', async ({ page }) => {
   await page.goto('https://www.programsbuzz.com/user/login');
   await page.getByLabel('Username').fill('myusername');
   await page.getByLabel('Password').fill('mypassword');
